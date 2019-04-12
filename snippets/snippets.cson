@@ -1,0 +1,31 @@
+".source.html":
+  "Milkshake button":
+    "prefix": "milkshake b"
+    "body": "<milkshake-button text=\"$1\"></milkshake-button>"
+    "description": "Creates milkshake button component"
+  "Milkshake input":
+    "prefix": "milkshake i"
+    "body": "<milkshake-input formInputName=\"$1\" placeholderText=\"$2\"></milkshake-input>"
+    "description": "Creates milkshake input component"
+  "Milkshake tabs":
+    "prefix": "milkshake t"
+    'body': """
+      <milkshake-tabs>
+        <tab tabTitle=\"${1:Tab 1}\">
+          ${2:Tab 1 content}
+        </tab>
+        <tab tabTitle=\"${3:Tab 2}\">
+          ${4:Tab 2 content}
+        </tab>
+      </milkshake-tabs>
+    """
+    "description": "Creates milkshake tabs component"
+".source.ts":
+  "Milkshake sparkleClass":
+    "prefix": "milkshake"
+    "body": """
+      this.${1:isSparkling} = true;
+      setTimeout(() => {
+        this.${1:isSparkling} = false;
+      }, 350);
+    """

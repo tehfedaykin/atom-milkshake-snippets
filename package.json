@@ -1,0 +1,17 @@
+{
+  "name": "atom-milkshake-snippets",
+  "version": "0.0.0",
+  "description": "Sample snippet package example",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "milkshake-snippets:toggle"
+  },
+  "repository": "https://github.com/tehfedaykin/atom-milkshake-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
